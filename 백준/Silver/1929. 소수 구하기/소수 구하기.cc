@@ -2,9 +2,9 @@
 
 using namespace std;
 
-#define max 1000000
+#define max 1000001
 
-int arr[max + 1]{ 0, };
+int arr[max]{ 0, };
 
 int main(void) {
 	ios::sync_with_stdio;
