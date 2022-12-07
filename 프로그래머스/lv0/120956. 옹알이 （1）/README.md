@@ -1,10 +1,10 @@
 # [level 0] 옹알이 (1) - 120956 
 
-[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/120956?language=cpp) 
+[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/120956) 
 
 ### 성능 요약
 
-메모리: 3.66 MB, 시간: 0.01 ms
+메모리: 4.2 MB, 시간: 0.01 ms
 
 ### 구분
 
@@ -25,7 +25,11 @@
 <ul>
 <li>1 ≤ <code>babbling</code>의 길이 ≤ 100</li>
 <li>1 ≤ <code>babbling[i]</code>의 길이 ≤ 15</li>
-<li><code>babbling</code>의 원소에서 "aya", "ye", "woo", "ma"는 각각 최대 한 번씩만 등장합니다.</li>
+<li><code>babbling</code>의 각 문자열에서 "aya", "ye", "woo", "ma"는 각각 최대 한 번씩만 등장합니다.
+
+<ul>
+<li>즉, 각 문자열의 가능한 모든 부분 문자열 중에서 "aya", "ye", "woo", "ma"가 한 번씩만 등장합니다. </li>
+</ul></li>
 <li>문자열은 알파벳 소문자로만 이루어져 있습니다.</li>
 </ul>
 
