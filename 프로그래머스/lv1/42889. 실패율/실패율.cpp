@@ -15,8 +15,6 @@ vector<int> solution(int N, vector<int> stages) {
     vector<int> answer;
     vector<pair<int, double>> stagesSuccess;
     
-    sort(stages.begin(), stages.end());
-    
     for(int i = 1; i <= N; i++) {
         double index = count(stages.begin(), stages.end(), i);
         double temp = count_if(stages.begin(), stages.end(), [i](int elem) { 
